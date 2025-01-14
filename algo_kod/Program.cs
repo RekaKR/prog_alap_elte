@@ -136,7 +136,40 @@ internal class Program
             Console.WriteLine($"{minIndex}, {minErtek}");
         }
         */
+
+        /*
+        // keresés
+        int n = 4;
+        int[] tomb = { 3, 8, 2, 10 };
+
+        int index = 0;
+
+        while (index < n && !(tomb[index] > 4)) {
+            index++;
+        }
+
+        bool van = (index < n);
+
+        Console.WriteLine($"{van}, {index}");
+        */
+    
+        /*
+        // eldöntés
+        int n = 3;
+        int[] tomb = { 10, 8, 11 };
         
+        int i = 0;
+
+        while (i < n && !(tomb[i] > 80)) {
+            i++;
+        }
+        
+        bool van = (i < n);
+
+        Console.WriteLine(van);
+        */
+
+
         //--------- FELTÖLTÉS ALATT ---------
     }
 }
