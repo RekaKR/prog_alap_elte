@@ -82,36 +82,61 @@ internal class Program
         Console.WriteLine($"{minIndex}, {minErtek}");
         */
 
-/*
-        // feltételes maximum kiválasztás
+        /*
+        // feltételes maximum keresés
         int n = 3;
         int[] tomb = { 10, 8, 11 };
 
         bool van = false;
-        int maxIndex;
-        int maxErtek;
+        int maxIndex = 0;
+        int maxErtek = tomb[0];
 
-        for (int i = 0; i < n; i++)
-        {
-            if (van && tomb[i] > 8)
-            {
-                if (tomb[i] > maxErtek)
-                {
+        for (int i = 0; i < n; i++) {
+            if (van && tomb[i] > 8) {
+                if (tomb[i] > maxErtek) {
                     maxIndex = i;
                     maxErtek = tomb[i];
                 }
-            }
-            else if (!van && tomb[i] > 8)
-            {
+            } else if (!van && tomb[i] > 8) {
                 maxIndex = i;
                 maxErtek = tomb[i];
                 van = true;
             }
         }
 
-        Console.WriteLine($"{maxIndex}, {maxErtek}");
-
-        --------- FELTÖLTÉS ALATT ---------
+        if (van) {
+            Console.WriteLine($"{maxIndex}, {maxErtek}");
+        }
         */
+
+        /*
+        // feltételes minimum keresés
+        int n = 3;
+        int[] tomb = { 10, 8, 11 };
+
+        bool van = false;
+        int minIndex = 0;
+        int minErtek = tomb[0];
+
+        for (int i = 0; i < n; i++) {
+            if (van && tomb[i] > 8) {
+                if (tomb[i] < minErtek) {
+                    minIndex = i;
+                    minErtek = tomb[i];
+                }
+            } else if (!van && tomb[i] > 8) {
+                minIndex = i;
+                minErtek = tomb[i];
+                van = true;
+            }
+        }
+
+        if (van)
+        {
+            Console.WriteLine($"{minIndex}, {minErtek}");
+        }
+        */
+        
+        //--------- FELTÖLTÉS ALATT ---------
     }
 }
