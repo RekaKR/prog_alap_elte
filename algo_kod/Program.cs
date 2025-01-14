@@ -169,7 +169,61 @@ internal class Program
         Console.WriteLine(van);
         */
 
+        /*
+        // mind eldöntés
+        int n = 3;
+        int[] tomb = { 10, 2, 11 };
 
+        int i = 0;
+
+        while (i < n && tomb[i] > 2) {
+            i++;
+        }
+
+        bool mind = (i == n);
+
+        Console.WriteLine(mind);
+        */
+
+        /*
+        // kiválasztás
+        string szo = "blablabla";
+
+        int ind = 0;
+
+        while (szo[ind] != 'a') {
+            ind++;
+        }
+
+        Console.WriteLine(ind);
+        */
+
+        /*
+        // kiválasztás
+        string szo = "blablabla";
+
+        int ind = 0;
+
+        while (szo[ind] != 'a') {
+            ind++;
+        }
+
+        Console.WriteLine(ind);
+
+        // egy példa tömbre
+        // feltételezzük, hogy van legalább egy ilyen elem a tömbben
+        int[] tomb = { 1, 2, 3 };
+
+        int ind2 = 0;
+
+        while (tomb[ind2] != 2)
+        {
+            ind2++;
+        }
+
+        Console.WriteLine(ind2);
+        */
+        
         //--------- FELTÖLTÉS ALATT ---------
     }
 }
