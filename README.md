@@ -18,7 +18,7 @@ Az algo_kod mappában a Program.cs-ben találhatóak a fenti specifikációkhoz 
 
 - Opciónális: Telepitsd VSC-ben az extensions résznél a C#-ot a Microsoft-tól.
 - Lépj be az algo_kod mappába.
-- Az adott kódrészt kommenteld ki (szedd ki előle a /\* és mögüle a \_/-t).
+- Az adott kódrészt kommenteld ki (szedd ki előle a /\* és mögüle a \*/-t).
 - A terminálba ird be, hogy: `dotnet run` és nyomj egy entert.
 
 #### VS:
