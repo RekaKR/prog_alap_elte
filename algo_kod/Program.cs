@@ -1,6 +1,11 @@
 ﻿using System;
 internal class Program
 {
+    /*
+    // kiválogatás
+      public record Diak(string Nev, int Jegy);
+    */
+
     static void Main(string[] args)
     {
         /*
