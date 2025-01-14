@@ -110,6 +110,8 @@ internal class Program
         }
 
         Console.WriteLine($"{maxIndex}, {maxErtek}");
+
+        --------- FELTÖLTÉS ALATT ---------
         */
     }
 }
