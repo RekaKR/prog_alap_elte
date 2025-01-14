@@ -131,8 +131,7 @@ internal class Program
             }
         }
 
-        if (van)
-        {
+        if (van) {
             Console.WriteLine($"{minIndex}, {minErtek}");
         }
         */
@@ -223,7 +222,65 @@ internal class Program
 
         Console.WriteLine(ind2);
         */
+
+        /*
+        // másolás
+        int n = 2;
+        int[] tomb = { 1, 4 };
         
-        //--------- FELTÖLTÉS ALATT ---------
+        int[] y = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            y[i] = tomb[i] + 2;
+        }
+
+        for (int i = 0; i < n; i++) {
+            Console.WriteLine(y[i]);
+        }
+        */
+
+        /*
+        // kiválogatás
+        int n = 3;
+        string[] y = new string[n];
+        Diak[] diakok = {
+            new Diak("Balázs", 5),
+            new Diak("Józsi", 3),
+            new Diak("Géza", 5)
+        };
+
+        int db = 0;
+
+        for (int i = 0; i < n; i++) {
+            if (diakok[i].Jegy == 5) {
+                y[db] = diakok[i].Nev;
+                db++;
+            }
+        }
+
+        Console.WriteLine(db);
+        for (int i = 0; i < db; i++) {
+            Console.WriteLine(y[i]);
+        }
+
+        // egy példa tömbre
+        // feltételezzük, hogy nem kaptunk n-et
+        int[] tomb = { 1, 20, 3, 40 };
+        int[] y2 = new int[tomb.Length];
+
+        int db2 = 0;
+
+        for (int i = 0; i < tomb.Length; i++) {
+            if (tomb[i] > 5) {
+                y2[db2] = tomb[i];
+                db2++;
+            }
+        }
+
+        Console.WriteLine(db2);
+        for (int i = 0; i < db2; i++) {
+                Console.WriteLine(y2[i]);
+        }
+        */
     }
 }
