@@ -36,7 +36,7 @@ db=DARAB(i=e..u, T(i))
 
 van=VAN(i=e..u, T(i))
 
-## Mind eldöntés/optimista eldöntés
+## Mind eldöntés/Optimista eldöntés
 
 mind=MIND(i=e..u, T(i))
 

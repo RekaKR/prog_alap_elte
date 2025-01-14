@@ -115,7 +115,7 @@ Ef: -
 Uf: van=VAN(i=1..n, tomb[i]>80)
 ```
 
-## Mind eldöntés/optimista eldöntés
+## Mind eldöntés/Optimista eldöntés
 
 #### mind=MIND(i=e..u, T(i))
 
