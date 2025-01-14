@@ -8,3 +8,7 @@
 - Lépj be az algo_kod mappába.
 - Az adott kódrészt kommenteld ki (szedd ki előle a /\* és mögüle a \_/-t).
 - A terminálba ird be, hogy: `dotnet run` és nyomj egy entert.
+
+### VS:
+
+- A megszokott módon
