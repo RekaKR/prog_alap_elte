@@ -1,4 +1,4 @@
-# Sablonok
+# Specifikaciok, visszavezetés
 
 ## Összegzés
 
@@ -10,6 +10,11 @@ Be: n∈N,
 Ki: osszeg∈N
 Ef: -
 Uf: osszeg = SZUM(i=1..n, tomb[i])
+```
+
+```
+e..u    ~    1..n
+f(i)    ~    tomb[i]
 ```
 
 ## Feltételes összegzés
