@@ -1,4 +1,4 @@
-# Specifikációk, visszavezetés
+# Specifikációk (példa feladat), Visszavezetés
 
 ## Összegzés
 #### Sablon
