@@ -241,7 +241,7 @@ e..u    ~    1..n
 f(i)    ~    tomb[i]+2
 ```
 
-## Kiválogat
+## Kiválogatás
 #### Sablon
 ```
 (db, y)=KIVÁLOGAT(i=e..u, T(i), f(i))
