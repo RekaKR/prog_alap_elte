@@ -48,6 +48,6 @@ ind=KIVÁLASZT(i>=e, T(i))
 
 y=MÁSOL(i=e..u, f(i))
 
-## Kiválogat
+## Kiválogatás
 
 (db, y)=KIVÁLOGAT(i=e..u, T(i), f(i))
