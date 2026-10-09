@@ -6,7 +6,7 @@ osszeg=SZUM(i=e..u, f(i))
 
 ## Feltételes összegzés
 
-osszeg=SZUM(i=e..u, (fi), T(i))
+osszeg=SZUM(i=e..u, f(i), T(i))
 
 ## Megszámlálás/Megszámolás
 
