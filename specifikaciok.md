@@ -17,6 +17,7 @@ Uf: osszeg = SZUM(i=1..n, tomb[i])
 
 #### Visszavezetés
 ```
+osszeg  ~    osszeg
 e..u    ~    1..n
 f(i)    ~    tomb[i]
 ```
@@ -53,6 +54,7 @@ Uf: db=DARAB(i=1..n, tomb[i]>10)
 
 #### Visszavezetés
 ```
+db      ~    db
 e..u    ~    1..n
 T(i)    ~    tomb[i]>10
 ```
@@ -236,7 +238,7 @@ Uf: y=MÁSOL(i=1..n, tomb[i]+2)
 
 #### Visszavezetés
 ```
-y     ~    y
+y       ~    y
 e..u    ~    1..n
 f(i)    ~    tomb[i]+2
 ```
