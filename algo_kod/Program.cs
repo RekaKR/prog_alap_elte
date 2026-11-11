@@ -141,8 +141,8 @@ internal class Program
         int[] tomb = { 10, 8, 11 };
 
         bool van = false;
-        int minIndex = 0;
-        int minErtek = tomb[0];
+        int minIndex = -1;
+        int minErtek = 0;
 
         for (int i = 0; i < n; i++) {
             if (van && tomb[i] > 8) {
