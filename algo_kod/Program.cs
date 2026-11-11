@@ -2,6 +2,7 @@
 
 /*
 // kiválogatás 2
+// struct konstruktorral
 public struct Diak2
 {
     public string Nev;
@@ -13,6 +14,13 @@ public struct Diak2
         this.Jegy = Jegy;
     }
 }
+
+// struct konstruktor nélkül
+// public struct Diak2
+// {
+//     public string Nev;
+//     public int Jegy;
+// }
 */
 
 internal class Program
@@ -292,11 +300,20 @@ internal class Program
 
         int n2 = 3;
         string[] y2 = new string[n];
+        
+        // struct konstruktorral
         diakok2 = new Diak2[] {
             new Diak2("Balázs", 5),
             new Diak2("Józsi", 3),
             new Diak2("Géza", 5)
         };
+
+        // struct konstruktor nélkül
+        // diakok2 = new Diak2[] {
+        //     new Diak2 {Nev = "Balázs", Jegy = 5},
+        //     new Diak2 {Nev = "Józsi", Jegy = 3},
+        //     new Diak2 {Nev = "Géza", Jegy = 5}
+        // };
 
         int db2 = 0;
 
