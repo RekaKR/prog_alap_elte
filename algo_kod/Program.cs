@@ -114,8 +114,8 @@ internal class Program
         int[] tomb = { 10, 8, 11 };
 
         bool van = false;
-        int maxIndex = 0;
-        int maxErtek = tomb[0];
+        int maxIndex = -1;
+        int maxErtek = 0;
 
         for (int i = 0; i < n; i++) {
             if (van && tomb[i] > 8) {
