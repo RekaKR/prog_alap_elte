@@ -1,4 +1,4 @@
-# Sablonok
+# Tételek rövidített formája / Tétel Sablon
 
 ## Összegzés
 
