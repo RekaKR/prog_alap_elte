@@ -123,7 +123,9 @@ internal class Program
 
         bool van = false;
         int maxIndex = -1;
+        // H maxErt = f(e);
         int maxErtek = 0;
+        // int maxInd = e;
 
         for (int i = 0; i < n; i++) {
             if (van && tomb[i] > 8) {
@@ -150,7 +152,9 @@ internal class Program
 
         bool van = false;
         int minIndex = -1;
+        // int minInd = e;
         int minErtek = 0;
+        // H minErt = f(e);
 
         for (int i = 0; i < n; i++) {
             if (van && tomb[i] > 8) {
